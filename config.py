@@ -1,17 +1,16 @@
 #-*- coding:utf-8 -*
 
+import os
 
 
-#项目所在路径
-path = 'C:/Users/Administrator/PycharmProjects/NeuralNetwork/captcha_test/captcha_lstm'
-#训练集验证码所在路径
-captcha_path = path + '/captcha_train'
-#测试集原始验证码文件存放路径
-test_data_path = path + '/captcha_test'
-#模型存放路径
-model_path = path + '/model/model.model'
-#测试结果存放路径
-output_path = path + '/result/result.txt'
+path = os.getcwd()  #项目所在路径
+
+captcha_path = path + '/captcha_train'  #训练集-验证码所在路径
+validation_path = path + '/validation_data' #验证集-验证码所在路径
+test_data_path = path + '/test_data'    #测试集-验证码文件存放路径
+output_path = path + '/result/result.txt'   #测试结果存放路径
+model_path = path + '/model/model.ckpt' #模型存放路径
+
 
 #要识别的字符
 number = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -29,6 +28,6 @@ n_classes = len(number) + len(ALPHABET)    #类别分类
 learning_rate = 0.001   #learning rate for adam
 num_units = 128   #hidden LSTM units
 layer_num = 2   #网络层数
-
+iteration = 10000   #训练迭代次数
 
 
