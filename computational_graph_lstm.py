@@ -2,7 +2,7 @@
 
 
 import tensorflow as tf
-from captcha_test.captcha_lstm.config import *
+from LSTM_captcha.config import *
 
 
 
