@@ -4,7 +4,7 @@ import os
 import random
 import numpy as np
 from PIL import Image
-from captcha_test.captcha_lstm.config import *
+from LSTM_captcha.config import *
 
 
 
