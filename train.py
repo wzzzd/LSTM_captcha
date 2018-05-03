@@ -6,9 +6,6 @@ from LSTM_captcha.util import *
 from LSTM_captcha.computational_graph_lstm import *
 
 
-
-
-
 def train():
 
     # defining placeholders
@@ -46,6 +43,7 @@ def train():
         valid_x, valid_y = get_batch(data_path=validation_path, is_training=False)
         print("Validation Accuracy:", sess.run(accuracy, feed_dict={x: valid_x, y: valid_y}))
 
+        
 if __name__ == '__main__':
     train()
 
