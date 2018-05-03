@@ -2,8 +2,8 @@
 
 
 import tensorflow as tf
-from captcha_test.captcha_lstm.util import *
-from captcha_test.captcha_lstm.computational_graph_lstm import *
+from LSTM_captcha.util import *
+from LSTM_captcha.computational_graph_lstm import *
 
 
 
