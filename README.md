@@ -8,7 +8,7 @@
 ### 2、原始验证码文件
 ![验证码](https://github.com/wzzzd/LSTM_captcha/blob/master/train_data/0FT9.jpg)<br>
 ![验证码](https://github.com/wzzzd/LSTM_captcha/blob/master/train_data/3AWM.jpg)<br>
-![验证码](https://github.com/wzzzd/LSTM_captcha/blob/master/train_data/31TY.jpg)<br>
+![验证码](https://github.com/wzzzd/LSTM_captcha/blob/master/train_data/31TY.jpg)
 
 ### 3、网络结构
 
