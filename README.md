@@ -14,7 +14,7 @@
 
 
 ### 4、训练过程
-使用Adam算法替代梯度下降，迭代到3000次，accuracy达0.65，loss小于0.03。继续优化能到达更高的准确率。
+使用Adam算法替代梯度下降，迭代到3000次，accuracy达0.65，loss小于0.03。继续进行迭代、或优化能到达更高的准确率。
 ![验证码](https://github.com/wzzzd/LSTM_captcha/blob/master/picture/accuracy.png)<br>
 ![验证码](https://github.com/wzzzd/LSTM_captcha/blob/master/picture/loss.png)
 
