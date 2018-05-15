@@ -3,7 +3,7 @@
 
 ### 1、前面工作
 关于验证码识别，试过使用传统的machine learning方式识别，在相同样本下效果还算可以，但当迁移到别的数据集时，效果不理想。<br>
-对于使用深度学习识别验证码，尝试过使用LeNet-5、AlexNet网络，可能是网络结构简单的原因，结果不收敛。故尝试用了RNN中的LSTM单元网络来识别，效果较理想。
+对于使用深度学习识别验证码，尝试过使用LeNet-5、AlexNet两种卷积网络，可能是网络结构简单的原因，结果不收敛。故尝试用了RNN中的LSTM单元网络来识别，效果较理想。
 
 ### 2、原始验证码文件
 ![验证码](https://github.com/wzzzd/LSTM_captcha/blob/master/picture/3AWM.jpg)<br>
